@@ -50,18 +50,7 @@ function App() {
             onChange={handleChange}
           />
         </div>
-        <div className="mb-3 mt-3">
-          <label for="Gender">Gender:</label>
-          <input
-            type="name"
-            className="form-control"
-            id="name"
-            value={details.name}
-            placeholder="Enter Gender"
-            name="name"
-            onChange={handleChange}
-          />
-        </div>
+        
         <p className="text-danger">{error}</p>
         <div className="form-check mb-3">
           <label className="form-check-label">
