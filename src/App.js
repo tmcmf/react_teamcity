@@ -51,18 +51,18 @@ function App() {
             onChange={handleChange}
           />
         </div>
-        {/* <div className="mb-4">
+        <div className="mb-4">
           <label for="gender">Gender:</label>
           <input
             type="number"
             className="form-control"
             id="gender"
-            placeholder="Enter gender"
+            placeholder="Enter gender to check"
             name="gender"
             value={details.gender}
             onChange={handleChange}
           />
-        </div> */}
+        </div>
         
         <p className="text-danger">{error}</p>
         <div className="form-check mb-3">
