@@ -4,6 +4,7 @@ function App() {
   const [details, setDetails] = useState({
     name: "",
     age: null,
+    gender:"",
   });
   const [error, setError] = useState("");
   const handleSubmit = () => {
@@ -47,6 +48,18 @@ function App() {
             placeholder="Enter age"
             name="age"
             value={details.age}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="mb-4">
+          <label for="gender">Gender:</label>
+          <input
+            type="number"
+            className="form-control"
+            id="gender"
+            placeholder="Enter gender"
+            name="gender"
+            value={details.gender}
             onChange={handleChange}
           />
         </div>
