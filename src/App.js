@@ -51,7 +51,7 @@ function App() {
             onChange={handleChange}
           />
         </div>
-        {/* <div className="mb-4">
+        <div className="mb-4">
           <label for="gender">Gender:</label>
           <input
             type="number"
@@ -62,7 +62,7 @@ function App() {
             value={details.gender}
             onChange={handleChange}
           />
-        </div> */}
+        </div>
         
         <p className="text-danger">{error}</p>
         <div className="form-check mb-3">
