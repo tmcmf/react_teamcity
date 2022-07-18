@@ -54,7 +54,7 @@ function App() {
         <p className="text-danger">{error}</p>
 
         <div className="mb-1">
-          <label for="address">Address:</label>
+          <label for="address">Home Address:</label>
           <input
             type="address"
             className="form-control"
