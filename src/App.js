@@ -53,7 +53,7 @@ function App() {
         </div>               
         <p className="text-danger">{error}</p>
 
-        <div className="mb-1">
+        <div className="mb-9">
           <label for="address">Home Address:</label>
           <input
             type="address"
