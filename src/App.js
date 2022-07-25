@@ -4,7 +4,6 @@ function App() {
   const [details, setDetails] = useState({
     name: "",
     age: null,
-    address:"",
   });
   const [error, setError] = useState("");
   const handleSubmit = () => {
@@ -50,21 +49,8 @@ function App() {
             value={details.age}
             onChange={handleChange}
           />
-        </div>               
-        <p className="text-danger">{error}</p>
-
-        <div className="mb-9">
-          <label for="address">Home Address:</label>
-          <input
-            type="address"
-            className="form-control"
-            id="address"
-            placeholder="Enter address"
-            name="address"
-            value={details.address}
-            onChange={handleChange}
-          />
         </div>
+        <p className="text-danger">{error}</p>
 
         <div className="form-check mb-3">
           <label className="form-check-label">
